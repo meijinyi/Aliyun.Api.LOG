@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Google.ProtocolBuffers\Google.ProtocolBuffers.csproj" />
+    <ProjectReference Include="..\LZ4Sharp\LZ4Sharp.csproj" />
+    <ProjectReference Include="..\zlibnet\zlibnet.csproj" />
+  </ItemGroup>
+
+</Project>
